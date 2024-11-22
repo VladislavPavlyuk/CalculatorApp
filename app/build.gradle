@@ -6,6 +6,10 @@ android {
     namespace 'com.example.calculatorapp'
     compileSdk 34
 
+    viewBinding {
+        enabled = true
+    }
+
     defaultConfig {
         applicationId "com.example.calculatorapp"
         minSdk 34
