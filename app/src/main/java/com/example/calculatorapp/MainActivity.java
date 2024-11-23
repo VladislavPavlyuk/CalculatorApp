@@ -27,7 +27,6 @@ import androidx.appcompat.app.AppCompatActivity;
             findViewById(R.id.button_8).setOnClickListener(v -> appendNumber("8"));
             findViewById(R.id.button_9).setOnClickListener(v -> appendNumber("9"));
 
-            // Add more listeners for other buttons
 
             findViewById(R.id.button_equal).setOnClickListener(v -> calculateResult());
             findViewById(R.id.button_AC).setOnClickListener(v -> clearInput());
@@ -39,7 +38,6 @@ import androidx.appcompat.app.AppCompatActivity;
         }
 
         private void calculateResult() {
-            // Implement calculation logic here
         }
 
         private void clearInput() {
